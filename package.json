@@ -2,14 +2,17 @@
   "name": "slate-web-coding-challenge",
   "version": "1.0.0",
   "description": "Coding Challenge for web roles at Slate Companies",
-  "main": "app.js",
   "author": "Slate Companies",
   "license": "None",
   "private": true,
-  "dependencies": {
-    "browser-sync": "^2.26.7"
-  },
+  "main": "index.html",
   "scripts": {
-    "start": "browser-sync start --server --files *.css *.js *.html"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
   }
 }
