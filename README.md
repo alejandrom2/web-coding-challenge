@@ -16,6 +16,8 @@ The coding enviroment provided is based on VSCode and provides you with autocomp
 
 You may utalize Bootstrap 4's Grid Framework to help implement a responsive UI. You may utalize the following document to better help you.
 
+[Bootstrap Grid Documentation](https://getbootstrap.com/docs/4.0/layout/grid/)
+
 _Other material are not permited however we encourage you to walk us through your thought process._
 
 ## Time allotted: 1 hour.
