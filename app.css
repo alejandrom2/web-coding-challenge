@@ -14,7 +14,7 @@ Submit Button: #4B3365 / rgb(75, 51, 101)
 }
 .nav a {
   vertical-align: middle;
-  font-size: 15pt;
+  /* font-size: 15pt; */
   color: white;
 }
 #logo {
@@ -42,4 +42,18 @@ Submit Button: #4B3365 / rgb(75, 51, 101)
 }
 .submit {
   background: #4b3365;
+  border: 1px solid rgba(257, 257, 257, 0.5);
+  border-radius: 5pt;
+  height: 5vh;
+}
+.submit:disabled {
+  background: #160f1e;
+  color: grey;
+}
+input {
+  margin-bottom: 2vh;
+  width: 100%;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid white;
 }
