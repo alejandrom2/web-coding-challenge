@@ -1,11 +1,76 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>Slate Companies Web Project</title>
-    <link rel="stylesheet" type="text/css" href="src/app.css" />
-    <script src="src/index.js"></script>
+    <!-- 
+        You may choose to use Bootstrap 4's Grid.
+        Other BS4 Files are not included.
+        https://getbootstrap.com/docs/4.0/layout/grid/
+    -->
+    <link
+      type="text/css"
+      href="bootstrap/bootstrap-reboot.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="bootstrap/bootstrap-grid.css"
+    />
+    <link rel="stylesheet" type="text/css" href="app.css" />
   </head>
+
   <body>
-    <!-- Your Code Here -->
+    <!-- Demo Information -->
+
+    <!-- 
+        Hero Image Overlay Color: #1d003e / rgb(29, 0, 62)
+        Sign Up Box Background Color: #000000 / rgb(0,0,0)
+        Submit Button: #4B3365 / rgb(75, 51, 101)
+    -->
+    <!-- Your Code Below -->
+    <div id="hero">
+      <div class="gradient"></div>
+      <div class="container-fluid hero-inner">
+        <div class="row nav p-4 align-items-center">
+          <div class="col-3">
+            <a href="/" ><img src="assets/logo.png" id="logo"/></a>
+          </div>
+          <div class="col d-none d-lg-block">
+            <a href="" class="pr-5">Pricing</a>
+            <a href="" class="pr-5">About Us</a>
+            <a href="" class="pr-5">Contact Us</a>
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-lg-5">
+            <h1>THIS IS A TITLE</h1>
+            <h3>We support it with a subtitle.</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="col col-lg-5">
+            <div class="sign-up p-5">
+              <h1 class="pb-5">Sign up for more info</h1>
+              <form>
+                <input type="text" title="Name" placeholder="Name" requried />
+                <input type="tel" title="Phone Number" placeholder="Phone Number" requried />
+                <input type="email" title="Email" placeholder="Email" required />
+                <input class="submit" type="submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script>
+  {# Your Javascript Code Here #}
+  </script>
   </body>
 </html>
