@@ -22,9 +22,9 @@ _Other material are not permited however we encourage you to walk us through you
 
 Expected behaviors:
 Part 1:
-[] Visitor wants to sign up for the company's newsletter.
-[] Visitor's information is validated, and can only be submitted if valid.
-[] Success message is displayed with the visitor's name.
+- [ ] Visitor wants to sign up for the company's newsletter.
+- [ ] Visitor's information is validated, and can only be submitted if valid.
+- [ ] Success message is displayed with the visitor's name.
 
 Part 2:
-[] Page should be mobile responsive.
+- [ ] Page should be mobile responsive.
