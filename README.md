@@ -20,7 +20,7 @@ You may utalize Bootstrap 4's Grid Framework to help implement a responsive UI. 
 
 _Other material are not permited however we encourage you to walk us through your thought process._
 
-## Time allotted: 1 hour.
+*Time allotted: 1 hour.*
 
 Expected behaviors:
 Part 1:
@@ -30,3 +30,10 @@ Part 1:
 
 Part 2:
 - [ ] Page should be mobile responsive.
+
+---
+
+## Color Pallet
+- Hero Image Overlay Color: ![#1d003e](https://placehold.it/15/1d003e/1d003e?text=+) `#1d003e / rgb(29, 0, 62)`
+- Sign Up Box Background Color: ![#000000](https://placehold.it/15/000000/000000?text=+) `#000000 / rgb(0,0,0)`
+- Submit Button: ![#4B3365](https://placehold.it/15/4B3365/4B3365?text=+) `#4B3365 / rgb(75, 51, 101)`
